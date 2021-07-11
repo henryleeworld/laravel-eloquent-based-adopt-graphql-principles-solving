@@ -14,8 +14,4 @@ use Restql\Restql;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
-Route::get('restql', function (Request $request) {
-  // This is not a facade.
-  return Restql::resolve($request);
-});
+Route::get('/restql', fn (Request $request) => Restql::resolve($request));

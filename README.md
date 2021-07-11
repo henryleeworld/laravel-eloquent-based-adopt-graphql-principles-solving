@@ -1,4 +1,4 @@
-# Laravel 7 以 Eloquent 為基礎嘗試採用 GraphQL 原理解析客戶端請求
+# Laravel 8 以 Eloquent 為基礎嘗試採用 GraphQL 原理解析客戶端請求
 
 引入 gregorip02 的 restql 套件來擴增使用模型作為進入點，以 Eloquent 的方法新增查詢。
 
@@ -26,5 +26,5 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/V0yn4nr.png)
+![](https://i.imgur.com/XthjKSP.png)
 > 以 RESTful 風格為主要基礎，訂定應用程式介面的呼叫方式、語法規則及所提供的介面類型等，但嘗試加入 GraphQL 原理
